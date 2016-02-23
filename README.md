@@ -1,0 +1,7 @@
+# woocommerce_mobile_payment
+A simple mobile payment plugin for woocommerce
+
+This is a simple plugin for Wordpress/WooCommerce which adds an offline mobilepayment gateway. 
+You put the plugin in the plugin folder.
+Go to your wordpress backend -> woocommerce -> setting -> checkout -> moilepayment and set up the gateway.
+
