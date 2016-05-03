@@ -79,7 +79,7 @@ function nb_mobile_payment_init() {
 			'enabled' => array(
 				'title'   => __( 'Enable/Disable', 'nb_mobile_payment' ),
 				'type'    => 'checkbox',
-				'label'   => __( 'Enable MobilePay', 'nb_mobile_payment' ),
+				'label'   => __( 'Enable Mobile Payment', 'nb_mobile_payment' ),
 				'default' => 'no'
 			),
 
