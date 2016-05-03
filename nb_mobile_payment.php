@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: NewBits Simple Mobile Paymen Gateway
+Plugin Name: NewBits Simple Mobile Payment Gateway
 Description: This Plugin adds a simple Mobile Payment gateway. It is Very Simular to the standard Bank Transfer gateway.
 Version: 1.0
 Author: Rune Stenstrøm
