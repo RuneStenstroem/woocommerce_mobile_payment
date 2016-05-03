@@ -19,7 +19,7 @@ function nb_mobile_payment_init() {
 	 */
 	add_action('plugins_loaded', 'nb_load_textdomain');
 	function nb_load_textdomain() {
-		load_plugin_textdomain('nb_mobile_payment', false, dirname( plugin_basename( __FILE__ ) ) . '/languages');
+		load_plugin_textdomain('nb_mobile_payment', false, dirname( plugin_basename( __FILE__ ) ) . '/lang');
 	}
 	/**
  	 * Gateway class
