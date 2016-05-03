@@ -2,20 +2,25 @@
 
 /*
 Plugin Name: NewBits Simple Mobile Payment Gateway
+Plugin URI: http://www.runestenstroem.dk/2016/02/20/mobilbetaling-i-woocommerce/
 Description: This Plugin adds a simple Mobile Payment gateway. It is Very Simular to the standard Bank Transfer gateway.
 Version: 1.0
 Author: Rune Stenstrøm
+Author URI: http://www.runestenstroem.dk
+Text Domain: nb_mobile_payment
 */
 
 
 add_action('plugins_loaded', 'nb_mobile_payment_init', 0);
 function nb_mobile_payment_init() {
-	//if ( !class_exists( 'WC_Payment_Gateway' ) ) return;
+	if ( !class_exists( 'WC_Payment_Gateway' ) ) return;
 	/**
  	 * Localisation
 	 */
-	//load_plugin_textdomain('nb_mobile_payment', false, dirname( plugin_basename( __FILE__ ) ) . '/languages');
-    
+	add_action('plugins_loaded', 'nb_load_textdomain');
+	function nb_load_textdomain() {
+		load_plugin_textdomain('nb_mobile_payment', false, dirname( plugin_basename( __FILE__ ) ) . '/languages');
+	}
 	/**
  	 * Gateway class
  	 */
