@@ -70,6 +70,9 @@ msgstr "Telefon Nummer"
 msgid "+ Add Account"
 msgstr "+ Tilføj Konto"
 
+msgid "Remove selected account(s)"
+msgstr "Fjern valgte konto(er)"
+
 msgid "Our mobile payment details"
 msgstr "Vores mobilbetalings detaljer"
 
