@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: NewBits Simple Mobile Payment Gateway
+Plugin Name: Simple Mobile Payment Gateway
 Plugin URI: http://www.runestenstroem.dk/2016/02/20/mobilbetaling-i-woocommerce/
 Description: This Plugin adds a simple Mobile Payment gateway. It is Very Simular to the standard Bank Transfer gateway.
 Version: 1.0
